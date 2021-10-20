@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:  url(https://i.gifer.com/J59.gif);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.iconl{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    position: fixed;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float:left;
+    margin-left: 270px;
+}
+.icon{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 300px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.font .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.back{
+    width: 1200px;
+    height: 540px;
+    background-color: white;
+    margin: 50px 168px 0 168px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.back h1{
+    font-family: Arial;
+    transition: 0.5s ease-in-out;
+    padding-top: 20px;
+}
+.back h1:hover{
+    color: red;
+}
+.fo img{
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+}
+.sf{
+    display: flex;
+}
+.sip{
+    padding: 40px 40px 0 0;
+    font-family: Cambria;
+    font-size: 20px;
+}
+.ba img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    transition: 0.3s ease-in-out;
+}
+.time{
+    display: flex;
+    margin-bottom: -30px;
+}
+.ba img:hover{
+    background-color: darkgray;
+}
+.sc{
+    width: 150px;
+    height: 150px;
+    
+    margin: 30px 30px 0 20px;
+    padding-top: 10px;
+    
+    text-align: center;
+}
+.sc img{
+    width: 50px;
+    height: 50px;
+    margin: 0 50px 0 50px;
+    
+}
+.sc p{
+    font-size: 14px;
+}
+.ken{
+    width: 70px;
+    height: 70px;
+}
+.sub{
+    width: 600px;
+    height: 100px;
+    padding-top: 10px;
+}
+.submit{
+    font-size: 24px;
+    padding: 5px 80px;
+    border-radius: 10%;
+    border: 2px solid black;
+    font-family: arial;
+    transition: 0.5s ease-in-out;
+    background-color: red;
+    color: white;
+}
+.submit:hover{
+    background-color: cyan;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+
+@media only screen and (max-width:700px) {
+    .main {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        background-size: cover;
+    }
+    .back{
+        width: 100%;
+        height: 90%;
+        margin: 180px 0 0 0;
+
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search{
+        width: 100%;
+        margin: 50px 10% 0 10%;
+    }
+    .sf{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .fo img{
+        width: 90%;
+        height: 90%;
+        padding: 0;
+    }
+    .sip{
+        width: 100%;
+        padding: 0;
+    }
+    .time{
+        width: 100%;
+    }
+    .sc{
+        margin: 0;
+        width: 30%;
+    }
+    .sub{
+        width: 100%;
+    }
+}
